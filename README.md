@@ -18,3 +18,7 @@ People who want to watch anime but also don't know where to start.
 
 # API's
 AnimeNewsNetwork - https://www.animenewsnetwork.com/encyclopedia/api.php
+
+
+
+
