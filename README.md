@@ -20,6 +20,7 @@ asdas
 # Wireframe
 Wireframe: 
 ![](./wireframe/main.png)
+![](./wireframe/wireframe.png)
 
 
 
