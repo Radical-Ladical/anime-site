@@ -19,7 +19,8 @@ People who want to watch anime but also don't know where to start.
 
 # Wireframe
 
-Wireframe: ![](/.wireframe/wireframe.png)
+Wireframe: 
+![](./wireframe/main.png)
 
 
 # API's
