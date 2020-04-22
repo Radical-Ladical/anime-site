@@ -19,8 +19,12 @@ asdas
 
 # Wireframe
 
+<<<<<<< HEAD
 Wireframe: 
 ![](./wireframe/main.png)
+=======
+Wireframe: ![](/.wireframe/main.png)
+>>>>>>> ca94576f30413128294d4142974ee97c2ef0283b
 
 
 # API's
