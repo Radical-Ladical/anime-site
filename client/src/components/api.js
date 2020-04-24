@@ -33,7 +33,7 @@ export default class Api extends Component {
       return(
         <React.Fragment>
             <div>
-                <h2></h2>
+                <h2>wow</h2>
                 <h4>{this.state.data[0]}</h4>
             </div>
         </React.Fragment>
