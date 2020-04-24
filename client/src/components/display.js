@@ -7,13 +7,10 @@ function SignIn() {
         <div class ="parent">
             <ul class="children">
                 <li>
-                    <input class="username" placeholder="Username"></input>
+                    <a href="default.asp"class="username">wow</a>
                 </li>
                 <li>
-                    <input class ="password" placeholder="Password"></input>
-                </li>
-                <li>
-                    <input class="password1" placeholder="Confirm Password"></input>
+                    <a href="news" class ="password">asds</a>
                 </li>
             </ul>
         </div>
