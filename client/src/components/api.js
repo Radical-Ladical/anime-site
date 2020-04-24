@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios';
+import Api from './components/content'
 
 export default class Api extends Component {
     constructor(props) {
