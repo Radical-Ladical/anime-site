@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 
-export default class App extends Component {
+export default class Api extends Component {
     constructor(props) {
       super(props);
       this.state= {
@@ -11,7 +11,7 @@ export default class App extends Component {
     }
     
     componentDidMount() {
-      let one ="";
+      let one ="https://kitsu.io/api/edge";
   
       const requestOne = axios.get(one);
   
@@ -31,10 +31,12 @@ export default class App extends Component {
   
     render() {
       return(
-        <div>
-          <h2></h2>
-          <h4>{this.state.data[0]}</h4>
-        </div>
+        <React.Fragment>
+            <div>
+                <h2></h2>
+                <h4>{this.state.data[0]}</h4>
+            </div>
+        </React.Fragment>
       )
     }
   }
