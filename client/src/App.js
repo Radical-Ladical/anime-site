@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import SignIn from './components/display'
+import SignIn from './components/display';
+import Api from './components/api';
 import './App.css';
 import axios from 'axios';
 

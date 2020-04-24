@@ -1,5 +1,5 @@
-import React from 'react'
-import Api from './api'
+import React, {Component} from 'react';
+import Api from './api';
 import axios from 'axios';
 
 
