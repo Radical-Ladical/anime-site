@@ -9,32 +9,22 @@ export default class Api extends Component {
         data:[]
       }
     }
-    
     componentDidMount() {
-      let one ="https://kitsu.io/api/edge";
-  
-      const requestOne = axios.get(one);
-  
-      axios.all([requestOne]).then(axios.spread((...responses) =>{
-        console.log(responses)
-        const responseOne = responses[0].data.born
-  
-        this.setState({
-          data:[responseOne]
-        })
-  
-      })).catch(errors => {
-        console.log ('Error fetching data')
-      })  
+      axios.get('https://kitsu.io/api/edge')
+      .then(response => {
+        console.log(response.data);
+      })
+      .catch(error => {
+        console.log(error);
+      });
     }
-  
   
     render() {
       return(
         <React.Fragment>
             <div>
                 <h2>wow</h2>
-                <h4>{this.state.data[0]}</h4>
+                {/* <h4>{this.state.data[0]}</h4> */}
             </div>
         </React.Fragment>
       )
