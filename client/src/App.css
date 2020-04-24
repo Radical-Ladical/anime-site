@@ -1,0 +1,48 @@
+.parent {
+    display: flex;
+    background-color: red;
+    background:url("./assets/background.jpg") center;
+    height: 700px;
+    width:600px;
+    color: aliceblue;
+    border-radius: 20%;
+    background-size:cover;
+    position: absolute;
+    left: 425px;
+    top: 500px;
+  }
+  .children {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+  .username {
+    background-color:rgba(248, 231, 231, 0.493);
+    color:purple;
+    position:absolute;
+    left: 235px;
+  }
+  .password{
+    background-color:rgba(248, 231, 231, 0.493);
+    color:purple;
+    position: absolute;
+    left: 235px;
+  }
+  .password1{
+    background-color:rgba(248, 231, 231, 0.493);
+    color:purple;
+    position: absolute;
+    left: 235px;
+  } 
+  .body {
+    position: absolute;
+    background-color: red;
+    height: 1500px;
+    width: 1450px;
+    background: url("./assets/min-background.jpg") fixed;
+    background-size: contain,cover 100%;
+  }
+  
